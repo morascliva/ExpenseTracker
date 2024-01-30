@@ -2,7 +2,6 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../Context/GlobalState';
 
-//Money formatter function
 function moneyFormatter(num) {
   let p = num.toFixed(2).split('.');
   return (
