@@ -16,7 +16,8 @@ function App() {
       <IncomeExpenses/>
       <TransactionList/>
       <AddTransaction/>
-      
+
+    
      </div>
     </GlobalProvider>
   );
