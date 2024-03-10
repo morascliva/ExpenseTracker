@@ -6,7 +6,7 @@ const initialState = {
   transactions: []
 }
 
-// Create context
+
 export const GlobalContext = createContext(initialState);
 
 export const GlobalProvider = ({ children }) => {
